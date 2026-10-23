@@ -1,0 +1,158 @@
+/* reset default body style */
+
+body{
+
+    margin:0px;
+    padding:0px;
+    background-color: #fbf4fd;
+}
+
+/* Main container layout */
+
+.main-container{
+    width:100%;
+    height: auto;
+}
+
+/*logo  section*/
+
+.wsaicon-container{
+    margin:25px 60px;
+}
+
+.wsaicon{
+     width:50px;
+    height:150px; 
+}
+
+/* sub container layout */
+.sub-container{
+    width: 100%;
+    height: 450px;
+}
+
+
+/*split screen layout*/
+
+.header-container{
+    float: left;
+    width: 50%;
+}
+
+.calculator-container{
+    float: right;
+    width: 50%;
+    height: 450px;  
+}
+
+/*header styling*/
+.header{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "poppins", sans-serif;
+    text-transform: uppercase;
+    padding: 60px;
+}
+
+/* circle bg design */
+.background-circle{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: #f5eaf9;
+    position: relative;
+    bottom: 10%;
+}
+
+/* calculator main */
+.calculator{
+    width:350px;
+    height:500px;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 122%;
+    left:11.5%;
+    border-radius: 33px;
+    border: 10px solid #e2e2e2;
+
+}
+/* output field container */
+.output-field-container{
+    background-color: #f3f2f2;
+    width: 320px;
+    height: 110px;
+    margin: 12px 16px;
+    border-radius: 20px;
+   
+
+}
+
+.output-field,.input-field{
+    background-color: #f3f2f2;
+    width: 94%;
+    margin: 1px 3px;
+    font-size: 40px;
+    padding: 10px 5px 0px 5px;
+    border-radius: 20px;
+    border: none;
+    text-align: end;
+}
+
+.output-field:focus{
+    outline: none;
+}
+.input-field:focus{
+    outline: none;
+}
+
+/*button container */
+.btn-row{
+    margin: auto auto auto 24px;
+    width: 93%;
+
+}
+
+button{
+    margin: 4px 5px;
+    width: 50px;
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+}
+.bg-icon:hover{
+    background-color: #fceebd;
+    color: black;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: #2a2828;
+    color: #f3f2f2;
+}
+.bg-icon{
+    background-color: #fceebd;
+    color:#9f7d03;
+}
+.zero{
+    width: 115px;
+}
+
+.equal-icon{
+   background-color: #d7aa03;
+   color: black;
+   width: 34%;
+}
+
+.footer-name{
+    font-family:"poppins", sans-serif;
+    padding: 60px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.clear-icon, .delete-icon, .percentage-icon{
+    width: 92px;
+}
+

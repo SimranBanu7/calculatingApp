@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalculatorApp</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+   <!-- Main Container -->
+    <main class="main-container">
+        <!-- WSA Icon -->
+         <div class="wsaicon-container">
+            <img src="wsa-logo.svg" alt="wsa-logo" class="wsaicon"/>
+    </div>
+    <!-- Title and Calculator-Container -->
+    <div class="sub-container">
+
+        <!-- Title -->
+         <div class="header-container">
+            <h1 class="header">Calculator</h1>
+         </div>
+         <!-- Calculator Container -->
+          <div class="calculator-container">
+            <!-- Background circle -->
+             <div class="background-circle">
+             </div>
+             <!-- Calculator -->
+              <div class="calculator">
+                <!-- i/p o/p screen -->
+                 <div class="output-field-container">
+                    <input type="text" class="output-field" id="display" readonly>
+                    <input type="text" class="input-field" placeholder="0" id="input-screen" readonly>
+                 </div>
+                 <!-- Button row 1 -->
+                  <section class="btn-row">
+                    <button class="clear-icon bg-icon ic"> AC</button>
+                    <button class="delete-icon bg-icon ic"><=</button>
+                    <button class="percentage-icon bg-icon ic">%</button>
+                    
+
+                  </section>
+
+                  <!-- new button row-->
+                   <section class="btn-row">
+                    <button > ( </button>
+                    <button >)</button>
+                    <button class="power-icon bg-icon">^</button>
+                    <button class="toggle-sign-icon bg-icon">+/-</button>
+                    <button class="squareroot-icon bg-icon0">sqrt</button>
+
+                </section>
+                 <!-- Button row 2 -->
+                  <section class="btn-row">
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button class="divide-icon bg-icon">/</button>
+                    <button class="mod-icon bg-icon">Mod</button>
+                    
+                  </section>
+                   <!-- Button row 3 -->
+                  <section class="btn-row">
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button class="multiply-icon bg-icon">x</button>
+                    <button class="bg-icon reciprocal-icon">1/x</button>
+                    <!-- <button class="add-icon bg-icon">+</button> -->
+                  </section>
+                   <!-- Button row 4 --> 
+                    <section class="btn-row">
+                        <button>1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button class="add-icon bg-icon">+</button>
+                        <button class="minus-icon bg-icon">-</button>
+                    </section>
+                     <!-- Button row 5 --> 
+                    <section class="btn-row">
+                        <button class="zero bg-icon">0</button>
+                        <button>.</button>
+                        <button class="equal-icon bg-icon">=</button>
+                        </section>  
+              </div>
+          </div>
+
+    </div>
+    <footer class="footer-name">&copy; 2026 WSA. All rights reserved.</footer>
+</main>
+      <script src="script.js" defer></script>
+</body>
+</html>
